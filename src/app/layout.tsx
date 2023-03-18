@@ -2,7 +2,7 @@ import { getServerSession } from 'next-auth'
 import Login from '../../components/Login'
 import { SessionProvider } from '../../components/SessionProvider'
 import SideBar from '../../components/SideBar'
-import { authOptions } from './api/auth/[...nextauth]'
+import { authOptions } from '../../pages/api/auth/[...nextauth]'
 import './globals.css'
 
 export default async function RootLayout({
